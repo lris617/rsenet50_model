@@ -65,9 +65,9 @@ def main():
     lstm_layers = 1
 
     # 数据路径
-    train_img_dir = "PyTorch_nn/dataset14/train"
+    train_img_dir = "PyTorch_nn/sample_data/train"
     train_label_csv = os.path.join(train_img_dir, "labels.csv")
-    val_img_dir = "PyTorch_nn/dataset14/val"
+    val_img_dir = "PyTorch_nn/sample_data/val"
     val_label_csv = os.path.join(val_img_dir, "labels.csv")
 
     # 数据集
