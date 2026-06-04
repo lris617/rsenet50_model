@@ -1,0 +1,19 @@
+# Current development environment:
+# Python: 3.11.9
+# VS Code: 1.119.0
+# OS: Ubuntu Linux, kernel 5.15.0-170-generic, x86_64
+# PyTorch: 2.9.1+cu128
+# Torchvision: 0.24.1+cu128
+# CUDA build: 12.8
+# CUDA availability at check time: False
+#
+# Note:
+# Install torch/torchvision according to your local CUDA or CPU environment.
+
+torch==2.9.1
+torchvision==0.24.1
+pandas==2.2.2
+numpy==2.2.6
+Pillow==10.4.0
+matplotlib==3.9.2
+scikit-learn==1.8.0
