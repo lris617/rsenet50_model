@@ -57,6 +57,20 @@ matplotlib
 scikit-learn
 ```
 
+Current development environment:
+
+```text
+Python: 3.11.9
+VS Code: 1.119.0
+OS: Ubuntu Linux, kernel 5.15.0-170-generic, x86_64
+PyTorch: 2.9.1+cu128
+Torchvision: 0.24.1+cu128
+CUDA build: 12.8
+CUDA available at check time: False
+```
+
+During the environment check, PyTorch reported CUDA/NVML initialization warnings, so this snapshot should be treated as the current software environment rather than proof that GPU execution is available.
+
 Install PyTorch according to your CUDA version, then install the remaining packages with `pip` or `conda`.
 
 Example:
@@ -362,4 +376,3 @@ Also make sure the `filename` column in `labels.csv` matches the sample director
 - Standardize output folders under one `report/` directory.
 - Add a small demo dataset or script for quick smoke testing.
 - Add unit tests for dataset loading and model forward passes.
-
